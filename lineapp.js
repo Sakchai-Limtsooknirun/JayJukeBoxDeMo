@@ -267,6 +267,7 @@ class lineApp {
             }))
         } catch (error) {
             console.error(`Delivery to LINE failed (${error})`);
+            next(error);
         }
     }
 }
