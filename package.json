@@ -1,7 +1,13 @@
 {
-  "name": "js-nuyd2o",
-  "version": "0.0.0",
-  "private": true,
+  "name": "line-jukebook-spotify",
+  "version": "1.0.0",
+  "description": "This jukebook music app is so cool.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jane-doe",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.19.0",
     "dotenv": "8.2.0",
